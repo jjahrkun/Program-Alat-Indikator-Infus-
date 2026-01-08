@@ -1,0 +1,37 @@
+Integrasi Alat dengan Blynk IoT
+A. Pengaturan Melalui Website Blynk IoT (PC)
+1.	Buka website Blynk IoT melalui PC/laptop.
+2.	Login dan lakukan verifikasi akun jika diminta.
+3.	Buat Device baru sesuai dengan perangkat yang digunakan.
+4.	Masuk ke menu Interface, lalu tambahkan widget Image Gallery dan Switch.
+5.	Masuk ke Settings Image Gallery, sesuaikan DataStream dengan program yang digunakan.
+6.	Atur Image Gallery menggunakan DataStream V1.
+B. Menyiapkan Gambar (Imgur)
+7.	Buka website untuk membuat link gambar, misalnya Imgur.
+8.	Upload 4 gambar, lalu salin (copy) link dari masing-masing gambar.
+9.	Kembali ke Blynk IoT, lalu paste setiap link gambar ke Image Gallery sesuai urutan.
+10.	Setelah selesai, klik Save untuk menyimpan pengaturan.
+C. Pengaturan Switch (Buzzer)
+11.	Masuk ke Settings Switch, gunakan sebagai tombol buzzer.
+12.	Atur DataStream Switch sesuai dengan program, lalu simpan pengaturan.
+D. Integrasi dengan Program Mikrokontroler
+13.	Ambil Template ID, Template Name, dan Auth Token dari Blynk IoT.
+14.	Masukkan ketiga data tersebut ke dalam program mikrokontroler.
+15.	Upload program ke perangkat/alat.
+E. Pengaturan Aplikasi Blynk di Android
+16.	Download aplikasi Blynk IoT melalui Play Store.
+17.	Login menggunakan akun yang sama seperti di website.
+18.	Atur Interface di aplikasi agar sama seperti pengaturan di PC.
+
+
+Setup Alat Monitoring Infus
+1.	Pasang sensor pada elektroda, lalu kaitkan 3 strip pengikat ke botol infus dengan rapat dan stabil.
+2.	Pasang konsol pada tiang infus, kemudian kencangkan dengan strip pengikat agar tidak mudah bergeser.
+3.	Hidupkan saklar power pada konsol.
+4.	Jika lampu indikator pada konsol berkedip, berarti pemasangan sensor belum benar atau belum terbaca dengan baik.
+5.	Pastikan pemasangan sensor benar hingga lampu indikator berhenti berkedip (menandakan alat siap).
+6.	Buka HP, lalu cari jaringan WiFi dengan nama “Infus Config” (atau sesuai nama yang ditentukan pada program).
+7.	Hubungkan ke WiFi tersebut, kemudian buka alamat IP konfigurasi dan masukkan ID serta password WiFi yang akan digunakan.
+8.	Setelah WiFi tersimpan, alat akan terhubung otomatis ke jaringan tanpa perlu pengaturan ulang.
+9.	Alat siap digunakan untuk monitoring infus.
+ 
